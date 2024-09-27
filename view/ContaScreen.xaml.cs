@@ -12,21 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace UVVFintech.view
+namespace UVVFintech.View
 {
     /// <summary>
-    /// Lógica interna para LoginScreen.xaml
+    /// Lógica interna para ContaScreen.xaml
     /// </summary>
-    public partial class LoginScreen : Window
+    public partial class ContaScreen : Window
     {
-        public LoginScreen()
+        public ContaScreen()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
