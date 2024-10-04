@@ -10,7 +10,12 @@ namespace UVVFintech.model
     {
         private Cliente titular {  get; set; }
 
-        private double saldo { get; set; }
+        private double saldo = 0;
+
+        public double GetSaldo()
+        {
+            return saldo;
+        }
 
         private int id { get; set; }
 

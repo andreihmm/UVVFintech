@@ -12,11 +12,11 @@ namespace UVVFintech.model
 
         public void fazerTransacao(double v)
         {
-
+            sacar(v);
         }
 
-        public void sacar(double v) { 
-
+        public void sacar(double v) {
+            conta.saldo = conta.saldo - v;
         }
     }
 }
