@@ -12,7 +12,9 @@
             <Label x:Name="Label_Saldo" Content="Saldo:" HorizontalAlignment="Left" Margin="64,89,0,0" VerticalAlignment="Top" FontSize="24" Height="40"/>
             <Button x:Name="Button_Menu" Content="MENU" HorizontalAlignment="Left" Margin="640,0,0,0" VerticalAlignment="Top" FontSize="22"/>
             <TextBlock x:Name="TextBlock_ValorSaldo" HorizontalAlignment="Left" Margin="160,94,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Height="35" RenderTransformOrigin="1.136,0.437"/>
-            <Button x:Name="Button_Contas" Content="Contas" HorizontalAlignment="Left" Margin="635,326,0,0" VerticalAlignment="Top" FontSize="22"/>
+            <Button x:Name="Button_Extrato" Content="Extrato" HorizontalAlignment="Left" Margin="64,260,0,0" VerticalAlignment="Top" FontSize="22"/>
+            <Button x:Name="Button_Transferencias" Content="Transferências" HorizontalAlignment="Left" Margin="191,260,0,0" VerticalAlignment="Top" FontSize="22"/>
+            <Button x:Name="Button_Investimentos" Content="Investimentos" HorizontalAlignment="Left" Margin="385,260,0,0" VerticalAlignment="Top" FontSize="22" Click="Button_Transferencias_Copiar_Click"/>
 
         </Grid>
     </Grid>

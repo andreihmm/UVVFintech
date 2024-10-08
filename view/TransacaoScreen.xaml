@@ -1,0 +1,17 @@
+﻿<Window x:Class="UVVFintech.View.TransacaoScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UVVFintech.View"
+        mc:Ignorable="d"
+        Title="TransacaoScreen" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Label_Selecione" Content="Selecione a Transação que Deseja Realizar" HorizontalAlignment="Center" Margin="0,37,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Button x:Name="Button_Saque" Content="Saque" HorizontalAlignment="Left" Margin="144,172,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Saque_Click"/>
+        <Button x:Name="Button_Outro" Content="Outro" HorizontalAlignment="Left" Margin="532,297,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Outro_Click"/>
+        <Button x:Name="Button_Transferencia" Content="Transferência" HorizontalAlignment="Left" Margin="144,297,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Transferencia_Click"/>
+        <Button x:Name="Button_Deposito" Content="Depósito" HorizontalAlignment="Left" Margin="532,172,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_Saque_Copiar2_Click" Width="150" Height="40"/>
+
+    </Grid>
+</Window>

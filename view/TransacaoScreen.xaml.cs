@@ -15,16 +15,31 @@ using System.Windows.Shapes;
 namespace UVVFintech.View
 {
     /// <summary>
-    /// Lógica interna para ContaScreen.xaml
+    /// Lógica interna para TransacaoScreen.xaml
     /// </summary>
-    public partial class ContaScreen : Window
+    public partial class TransacaoScreen : Window
     {
-        public ContaScreen()
+        public TransacaoScreen()
         {
             InitializeComponent();
         }
 
-        private void Button_Transferencias_Copiar_Click(object sender, RoutedEventArgs e)
+        private void Button_Saque_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Saque_Copiar2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Transferencia_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Outro_Click(object sender, RoutedEventArgs e)
         {
 
         }
