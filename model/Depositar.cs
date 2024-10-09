@@ -8,16 +8,22 @@ namespace UVVFintech.model
 {
     internal class Depositar : ITransacao
     {
-        private Conta conta {  get; set; }
+        private Conta conta;
 
-        public void fazerTransacao(double v)
+        public Depositar(Conta conta)
         {
-            depositar(v);
+            this.conta = conta;
         }
 
-        public void depositar(double v) 
+        public void fazerTransacao(double valor)
         {
-            conta.saldo = conta.saldo + v;
+            DepositarValor(valor);
+        }
+
+        private void DepositarValor(double valor)
+        {
+            conta.Depositar(valor); // Chama o método público para depositar
         }
     }
+
 }

@@ -18,9 +18,5 @@ namespace UVVFintech.model
         private GerenciadorDeTransacoes gerenciador {  get; set; }
         private int senha { get; set; }
 
-        public void fazerTransacao(ITransacao t, double v)
-        {
-
-        }
     }
 }

@@ -8,15 +8,31 @@ namespace UVVFintech.model
 {
     internal class Sacar : ITransacao
     {
-        private Conta conta {  get; set; }
+        private Conta conta;
 
-        public void fazerTransacao(double v)
+        public Sacar(Conta conta)
         {
-            sacar(v);
+            this.conta = conta;
         }
 
-        public void sacar(double v) {
-            conta.saldo = conta.saldo - v;
+        public void fazerTransacao(double valor)
+        {
+            bool sucesso = SacarValor(valor);
+            if (sucesso)
+            {
+                Console.WriteLine("Saque realizado com sucesso.");
+            }
+            else
+            {
+                Console.WriteLine("Falha no saque. Verifique o valor ou saldo.");
+            }
+        }
+
+        private bool SacarValor(double valor)
+        {
+            return conta.Sacar(valor); // Chama o método público
         }
     }
+
+
 }
