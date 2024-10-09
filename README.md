@@ -18,3 +18,7 @@ Integrantes:
 ### Diagrama de Classe Inicial:
 
 ![classeInicial](/documentacao/diagramaDeClasseInicial.png)
+
+### Diagrama de Classe Final:
+
+![DiagramaFinal](/documentacao/uvvfinance.drawio.png)
