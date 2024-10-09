@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace UVVFintech.View
 {
     /// <summary>
-    /// Lógica interna para ContaScreen.xaml
+    /// Lógica interna para CriarContaScreen.xaml
     /// </summary>
-    public partial class ContaScreen : Window
+    public partial class CriarContaScreen : Window
     {
-        public ContaScreen()
+        public CriarContaScreen()
         {
             InitializeComponent();
-        }
-
-        private void Button_Trasacao_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

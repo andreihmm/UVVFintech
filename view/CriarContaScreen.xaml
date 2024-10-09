@@ -1,0 +1,19 @@
+﻿<Window x:Class="UVVFintech.View.CriarContaScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UVVFintech.View"
+        mc:Ignorable="d"
+        Title="CriarContaScreen" Height="450" Width="800" Background="#FF80C1D5">
+    <Grid>
+        <Label x:Name="Label_CPFCliente" Content="CPF:" HorizontalAlignment="Left" Margin="157,100,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="TextBox_Nome" HorizontalAlignment="Left" Margin="542,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24"/>
+        <Label x:Name="Label_DataAbertura" Content="Data de Abertura:" HorizontalAlignment="Left" Margin="86,165,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="TextBox_DataAbertura" HorizontalAlignment="Left" Margin="542,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24"/>
+        <Label x:Name="Label_SaldoInicial" Content="Saldo Inicial:" HorizontalAlignment="Left" Margin="114,228,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="TextBox_SaldoInicial" HorizontalAlignment="Left" Margin="542,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24"/>
+        <Button x:Name="Button_CriarConta" Content="Criar Conta" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" FontSize="24"/>
+
+    </Grid>
+</Window>

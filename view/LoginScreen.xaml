@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UVVFintech.view"
         mc:Ignorable="d"
-        Title="LoginScreen" Height="450" Width="800">
+        Title="LoginScreen" Height="450" Width="800" Background="#FF80C1D5">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -16,7 +16,7 @@
             <Label x:Name="Label_CPF1" Content="CPF:" HorizontalAlignment="Left" Margin="170,196,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="36" Width="105" Height="50"/>
             <TextBox x:Name="TextBox_Senha" HorizontalAlignment="Left" Margin="397,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontFamily="Bell MT" FontSize="32" Height="34"/>
             <Button x:Name="Button_Entrar" Content="Entrar" HorizontalAlignment="Center" Margin="0,268,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="48"/>
-            <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Center" Height="79" Stroke="Black" VerticalAlignment="Top" Width="138"/>
+            <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Center" Height="79" Stroke="Black" VerticalAlignment="Top" Width="138" Fill="White"/>
         </Grid>
     </Grid>
 </Window>

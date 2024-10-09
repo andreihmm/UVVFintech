@@ -5,16 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UVVFintech.View"
         mc:Ignorable="d"
-        Title="ContaScreen" Height="450" Width="800">
+        Title="ContaScreen" Height="450" Width="800" Background="#FF80C1D5">
     <Grid>
         <Grid HorizontalAlignment="Center" Height="359" VerticalAlignment="Center" Width="706">
-            <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50"/>
+            <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White"/>
             <Label x:Name="Label_Saldo" Content="Saldo:" HorizontalAlignment="Left" Margin="64,89,0,0" VerticalAlignment="Top" FontSize="24" Height="40"/>
             <Button x:Name="Button_Menu" Content="MENU" HorizontalAlignment="Left" Margin="640,0,0,0" VerticalAlignment="Top" FontSize="22"/>
             <TextBlock x:Name="TextBlock_ValorSaldo" HorizontalAlignment="Left" Margin="160,94,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Height="35" RenderTransformOrigin="1.136,0.437"/>
-            <Button x:Name="Button_Extrato" Content="Extrato" HorizontalAlignment="Left" Margin="64,260,0,0" VerticalAlignment="Top" FontSize="22"/>
-            <Button x:Name="Button_Transferencias" Content="Transferências" HorizontalAlignment="Left" Margin="191,260,0,0" VerticalAlignment="Top" FontSize="22"/>
-            <Button x:Name="Button_Investimentos" Content="Investimentos" HorizontalAlignment="Left" Margin="385,260,0,0" VerticalAlignment="Top" FontSize="22" Click="Button_Transferencias_Copiar_Click"/>
+            <Button x:Name="Button_Trasacao" Content="Transações" HorizontalAlignment="Left" Margin="511,260,0,0" VerticalAlignment="Top" FontSize="22" Click="Button_Trasacao_Click"/>
 
         </Grid>
     </Grid>

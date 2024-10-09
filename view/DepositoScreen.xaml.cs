@@ -15,16 +15,16 @@ using System.Windows.Shapes;
 namespace UVVFintech.View
 {
     /// <summary>
-    /// Lógica interna para ContaScreen.xaml
+    /// Lógica interna para DepositoScreen.xaml
     /// </summary>
-    public partial class ContaScreen : Window
+    public partial class DepositoScreen : Window
     {
-        public ContaScreen()
+        public DepositoScreen()
         {
             InitializeComponent();
         }
 
-        private void Button_Trasacao_Click(object sender, RoutedEventArgs e)
+        private void Button_Confirmar_Click(object sender, RoutedEventArgs e)
         {
 
         }

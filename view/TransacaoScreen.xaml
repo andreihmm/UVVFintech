@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UVVFintech.View"
         mc:Ignorable="d"
-        Title="TransacaoScreen" Height="450" Width="800">
+        Title="TransacaoScreen" Height="450" Width="800" Background="#FF80C1D5">
     <Grid>
         <Label x:Name="Label_Selecione" Content="Selecione a Transação que Deseja Realizar" HorizontalAlignment="Center" Margin="0,37,0,0" VerticalAlignment="Top" FontSize="24"/>
         <Button x:Name="Button_Saque" Content="Saque" HorizontalAlignment="Left" Margin="144,172,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Saque_Click"/>

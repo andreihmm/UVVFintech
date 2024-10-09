@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,20 +12,24 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using UVVFintech.model;
 
 namespace UVVFintech.View
 {
     /// <summary>
-    /// Lógica interna para ContaScreen.xaml
+    /// Lógica interna para GerenciarContaScreen.xaml
     /// </summary>
-    public partial class ContaScreen : Window
+    public partial class GerenciarContaScreen : Window
     {
-        public ContaScreen()
+        private ContaControle objClasseConta = new();
+        private BindingList<Conta> objClasseListDataGridConta = new();
+        public GerenciarContaScreen()
         {
             InitializeComponent();
+            DataGrid_Conta.ItemsSource = objClasseListDataGridConta;
         }
 
-        private void Button_Trasacao_Click(object sender, RoutedEventArgs e)
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
