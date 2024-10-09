@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using UVVFintech.control;
 using UVVFintech.model;
 
 namespace UVVFintech.View
@@ -21,7 +22,7 @@ namespace UVVFintech.View
     /// </summary>
     public partial class GerenciarContaScreen : Window
     {
-        private ContaControle objClasseConta = new();
+        private GerenciadorDeContas objClasseConta = new();
         private BindingList<Conta> objClasseListDataGridConta = new();
         public GerenciarContaScreen()
         {

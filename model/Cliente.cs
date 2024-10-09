@@ -10,7 +10,11 @@ namespace UVVFintech.model
     internal class Cliente
     {
         private String nome {  get; set; }
-        private String cpf { get; set; }
+        private String cpf;
+        public String getCPF()
+        {
+            return cpf;
+        }
         private DateTime dataNascimento {  get; set; }
 
         private List<Conta> contas { get; set; }

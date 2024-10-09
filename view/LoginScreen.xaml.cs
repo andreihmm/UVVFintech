@@ -28,5 +28,10 @@ namespace UVVFintech.view
         {
 
         }
+
+        private void Button_Entrar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

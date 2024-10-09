@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UVVFintech
-build_property.ProjectDir = C:\DevC\UVVFintech\UVVFintech-master\
+build_property.ProjectDir = C:\Users\shawd\Source\Repos\UVVFintech\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

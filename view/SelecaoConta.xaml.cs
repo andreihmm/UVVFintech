@@ -22,7 +22,7 @@ namespace UVVFintech.View
     /// </summary>
     public partial class SelecaoConta : Window
     {
-        private ContaControle objClasseConta = new();
+        private GerenciadorDeContas objClasseConta = new();
         private BindingList<Conta> objClasseListDataGridConta = new();
         public SelecaoConta()
         {

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\DevC\UVVFintech\UVVFintech-master\obj\Debug\net8.0-windows\
+C:\Users\shawd\Source\Repos\UVVFintech\obj\Debug\net8.0-windows\
 UVVFintech
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\DevC\UVVFintech\UVVFintech-master\App.xaml
-4-329069608
+C:\Users\shawd\Source\Repos\UVVFintech\App.xaml
+121264918777
 
-20-460334739
+28-1291328110
 198-556154604
-view\ContaScreen.xaml;view\LoginScreen.xaml;view\SelecaoConta.xaml;view\TransacaoScreen.xaml;
+view\ConfirmarScreen.xaml;view\ContaScreen.xaml;view\CriarClienteScreen.xaml;view\CriarContaScreen.xaml;view\DepositoScreen.xaml;view\GerenciarContaScreen.xaml;view\InicialGerenteScreen.xaml;view\LoginScreen.xaml;view\SaqueScreen.xaml;view\SelecaoConta.xaml;view\TransacaoScreen.xaml;view\TransferenciaScreen.xaml;
 
 False
 
