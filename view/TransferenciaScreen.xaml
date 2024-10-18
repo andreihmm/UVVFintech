@@ -14,6 +14,7 @@
         <Label x:Name="Label_SaldoAtual" Content="Saldo Atual:" HorizontalAlignment="Left" Margin="202,52,0,0" VerticalAlignment="Top" FontSize="24"/>
         <TextBlock x:Name="TextBlock_SaldoAtual" HorizontalAlignment="Left" Margin="549,57,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24"/>
         <TextBox x:Name="TextBox_Conta" HorizontalAlignment="Left" Margin="495,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24"/>
+        <Button x:Name="Button_Voltar" Content="Voltar" HorizontalAlignment="Left" Margin="27,364,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Click="Button_Voltar_Click"/>
 
     </Grid>
 </Window>

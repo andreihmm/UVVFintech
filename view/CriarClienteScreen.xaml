@@ -11,13 +11,21 @@
             <ColumnDefinition Width="7*"/>
             <ColumnDefinition Width="793*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="Label_Nome" Content="Nome:" HorizontalAlignment="Left" Margin="150,100,0,0" VerticalAlignment="Top" FontSize="24" Grid.Column="1"/>
-        <Label x:Name="Label_Nascimento" Content="Data de Nascimento:" HorizontalAlignment="Left" Margin="75,167,0,0" VerticalAlignment="Top" FontSize="24" Grid.Column="1"/>
-        <Label x:Name="Label_CPF" Content="CPF:" HorizontalAlignment="Left" Margin="163,243,0,0" VerticalAlignment="Top" FontSize="24" Grid.Column="1"/>
-        <TextBox x:Name="TextBox_Nome" HorizontalAlignment="Left" Margin="535,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Grid.Column="1"/>
-        <TextBox x:Name="TextBox_CPF" HorizontalAlignment="Left" Margin="535,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Grid.Column="1"/>
-        <TextBox x:Name="TextBox_Nascimento" HorizontalAlignment="Left" Margin="535,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Grid.Column="1"/>
-        <Button x:Name="Button_AdicionarCliente" Content="Adicionar Cliente" HorizontalAlignment="Left" Margin="301,352,0,0" VerticalAlignment="Top" FontSize="24" Grid.Column="1"/>
+        <Grid Grid.Column="1" Width="706" Height="359" Margin="40,38,47,37">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="49*"/>
+                <RowDefinition Height="302*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="Label_Nome" Content="Nome:" HorizontalAlignment="Left" Margin="130,38,0,0" VerticalAlignment="Top" FontSize="24" Grid.RowSpan="2"/>
+            <Label x:Name="Label_Nascimento" Content="Data de Nascimento:" HorizontalAlignment="Left" Margin="54,56,0,0" VerticalAlignment="Top" FontSize="24" Grid.Row="1"/>
+            <Label x:Name="Label_CPF" Content="CPF:" HorizontalAlignment="Left" Margin="142,132,0,0" VerticalAlignment="Top" FontSize="24" Grid.Row="1"/>
+            <TextBox x:Name="TextBox_Nome" HorizontalAlignment="Left" Margin="514,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Grid.RowSpan="2"/>
+            <TextBox x:Name="TextBox_CPF" HorizontalAlignment="Left" Margin="514,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Grid.Row="1"/>
+            <TextBox x:Name="TextBox_Nascimento" HorizontalAlignment="Left" Margin="514,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Grid.Row="1"/>
+            <Button x:Name="Button_AdicionarCliente" Content="Adicionar Cliente" HorizontalAlignment="Left" Margin="280,241,0,0" VerticalAlignment="Top" FontSize="24" Grid.Row="1" Click="Button_AdicionarCliente_Click"/>
+            <Button x:Name="Button_Voltar" Content="Voltar" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Grid.Row="1" Click="Button_Voltar_Click"/>
+        </Grid>
 
     </Grid>
 </Window>

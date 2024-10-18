@@ -15,8 +15,9 @@
             <TextBox x:Name="TextBox_CPF" HorizontalAlignment="Left" Margin="397,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontFamily="Bell MT" FontSize="32" Height="34"/>
             <Label x:Name="Label_CPF1" Content="CPF:" HorizontalAlignment="Left" Margin="170,196,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="36" Width="105" Height="50"/>
             <TextBox x:Name="TextBox_Senha" HorizontalAlignment="Left" Margin="397,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontFamily="Bell MT" FontSize="32" Height="34"/>
-            <Button x:Name="Button_Entrar" Content="Entrar" HorizontalAlignment="Center" Margin="0,268,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="48"/>
+            <Button x:Name="Button_Entrar" Content="Entrar" HorizontalAlignment="Center" Margin="0,268,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="48" Click="Button_Entrar_Click"/>
             <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Center" Height="79" Stroke="Black" VerticalAlignment="Top" Width="138" Fill="White"/>
+            <Button x:Name="Button_Voltar" Content="Voltar" HorizontalAlignment="Left" Margin="0,328,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Click="Button_Voltar_Click"/>
         </Grid>
     </Grid>
 </Window>

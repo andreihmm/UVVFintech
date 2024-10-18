@@ -10,9 +10,10 @@
         <Grid HorizontalAlignment="Center" Height="359" VerticalAlignment="Center" Width="706">
             <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="White"/>
             <Label x:Name="Label_Saldo" Content="Saldo:" HorizontalAlignment="Left" Margin="64,89,0,0" VerticalAlignment="Top" FontSize="24" Height="40"/>
-            <Button x:Name="Button_Menu" Content="MENU" HorizontalAlignment="Left" Margin="640,0,0,0" VerticalAlignment="Top" FontSize="22"/>
+            <Button x:Name="Button_Menu" Content="MENU" HorizontalAlignment="Left" Margin="640,0,0,0" VerticalAlignment="Top" FontSize="22" Click="Button_Menu_Click"/>
             <TextBlock x:Name="TextBlock_ValorSaldo" HorizontalAlignment="Left" Margin="160,94,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="24" Height="35" RenderTransformOrigin="1.136,0.437"/>
-            <Button x:Name="Button_Trasacao" Content="Transações" HorizontalAlignment="Left" Margin="511,260,0,0" VerticalAlignment="Top" FontSize="22" Click="Button_Trasacao_Click"/>
+            <Button x:Name="Button_Transacao" Content="Transações" HorizontalAlignment="Left" Margin="587,265,0,0" VerticalAlignment="Top" FontSize="22" Click="Button_Transacao_Click"/>
+            <Button x:Name="Button_Sair" Content="Sair" HorizontalAlignment="Left" Margin="0,328,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Click="Button_Sair_Click"/>
 
         </Grid>
     </Grid>

@@ -26,22 +26,38 @@ namespace UVVFintech.View
 
         private void Button_Saque_Click(object sender, RoutedEventArgs e)
         {
-
+            var ownedWindow = new SaqueScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
         }
-
-        private void Button_Saque_Copiar2_Click(object sender, RoutedEventArgs e)
+        private void Button_Deposito_Click(object sender, RoutedEventArgs e)
         {
-
+            var ownedWindow = new DepositoScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
         }
 
         private void Button_Transferencia_Click(object sender, RoutedEventArgs e)
         {
-
+            var ownedWindow = new TransferenciaScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
         }
 
         private void Button_Outro_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Button_Voltar_Click(object sender, RoutedEventArgs e)
+        {
+            var ownedWindow = new ContaScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
         }
     }
 }

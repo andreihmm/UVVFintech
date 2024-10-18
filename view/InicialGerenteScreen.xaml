@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="InicialGerenteScreen" Height="450" Width="800" Background="#FF80C1D5">
     <Grid>
-        <Button x:Name="Button_AcessarConta" Content="Acessar Contas" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Width="200" Height="40" Margin="0,217,0,0"/>
-        <Button x:Name="Button_GerenciarConta" Content="Gerenciar Contas" HorizontalAlignment="Center" Margin="0,286,0,0" VerticalAlignment="Top" FontSize="24" Width="200" Height="40"/>
+        <Button x:Name="Button_AcessarConta" Content="Acessar Contas" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Width="200" Height="40" Margin="0,217,0,0" Click="Button_AcessarConta_Click" FontFamily="Bell MT"/>
+        <Button x:Name="Button_GerenciarConta" Content="Gerenciar Contas" HorizontalAlignment="Center" Margin="0,286,0,0" VerticalAlignment="Top" FontSize="24" Width="200" Height="40" Click="Button_GerenciarConta_Click" FontFamily="Bell MT"/>
         <Rectangle x:Name="Rectangle_Foto" HorizontalAlignment="Center" Height="79" Stroke="Black" VerticalAlignment="Top" Width="138" Margin="0,20,0,0" Fill="White"/>
-        <Button x:Name="Button_GerenciarCliente" Content="Gerenciar Cliente" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" FontSize="24" Width="200" Height="40"/>
+        <Button x:Name="Button_GerenciarCliente" Content="Gerenciar Cliente" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" FontSize="24" Width="200" Height="40" Click="Button_GerenciarCliente_Click" FontFamily="Bell MT"/>
 
     </Grid>
 </Window>

@@ -12,6 +12,7 @@
         <Label x:Name="Label_Valor" Content="Escolha o Valor a Depositar:" HorizontalAlignment="Left" Margin="121,217,0,0" VerticalAlignment="Top" FontSize="24"/>
         <TextBox x:Name="TextBox_Valor" HorizontalAlignment="Left" Margin="459,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24"/>
         <Button x:Name="Button_Confirmar" Content="Confirmar" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_Confirmar_Click"/>
+        <Button x:Name="Button_Voltar" Content="Voltar" HorizontalAlignment="Left" Margin="27,364,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Click="Button_Voltar_Click"/>
 
     </Grid>
 </Window>

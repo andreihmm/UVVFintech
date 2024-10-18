@@ -10,7 +10,8 @@
         <Grid Margin="0,0,0,261">
             <DataGrid x:Name="DataGrid_Conta" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="DataGrid_SelectionChanged"/>
         </Grid>
-        <Button x:Name="Button_CriarNovaConta" Content="Criar Nova Conta" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Button x:Name="Button_CriarNovaConta" Content="Criar Nova Conta" HorizontalAlignment="Center" Margin="0,302,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_CriarNovaConta_Click"/>
+        <Button x:Name="Button_Voltar" Content="Voltar" HorizontalAlignment="Left" Margin="45,354,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Click="Button_Voltar_Click"/>
 
     </Grid>
 </Window>

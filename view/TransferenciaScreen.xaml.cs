@@ -28,5 +28,13 @@ namespace UVVFintech.View
         {
 
         }
+
+        private void Button_Voltar_Click(object sender, RoutedEventArgs e)
+        {
+            var ownedWindow = new TransacaoScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
+        }
     }
 }

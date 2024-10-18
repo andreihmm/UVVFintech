@@ -11,7 +11,8 @@
         <Button x:Name="Button_Saque" Content="Saque" HorizontalAlignment="Left" Margin="144,172,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Saque_Click"/>
         <Button x:Name="Button_Outro" Content="Outro" HorizontalAlignment="Left" Margin="532,297,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Outro_Click"/>
         <Button x:Name="Button_Transferencia" Content="Transferência" HorizontalAlignment="Left" Margin="144,297,0,0" VerticalAlignment="Top" FontSize="24" Height="40" Width="150" Click="Button_Transferencia_Click"/>
-        <Button x:Name="Button_Deposito" Content="Depósito" HorizontalAlignment="Left" Margin="532,172,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_Saque_Copiar2_Click" Width="150" Height="40"/>
+        <Button x:Name="Button_Deposito" Content="Depósito" HorizontalAlignment="Left" Margin="532,172,0,0" VerticalAlignment="Top" FontSize="24" Click="Button_Deposito_Click" Width="150" Height="40"/>
+        <Button x:Name="Button_Voltar" Content="Voltar" HorizontalAlignment="Left" Margin="27,364,0,0" VerticalAlignment="Top" FontFamily="Bell MT" FontSize="24" Click="Button_Voltar_Click"/>
 
     </Grid>
 </Window>

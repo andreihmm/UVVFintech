@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using UVVFintech.View;
 
 namespace UVVFintech.view
 {
@@ -24,14 +25,20 @@ namespace UVVFintech.view
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Button_Entrar_Click(object sender, RoutedEventArgs e)
         {
+            var ownedWindow = new ContaScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
+        }
 
+        private void Button_Voltar_Click(object sender, RoutedEventArgs e)
+        {
+            var ownedWindow = new InicialGerenteScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
         }
     }
 }

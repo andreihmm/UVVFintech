@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using UVVFintech.view;
 
 namespace UVVFintech.View
 {
@@ -22,6 +23,30 @@ namespace UVVFintech.View
         public InicialGerenteScreen()
         {
             InitializeComponent();
+        }
+
+        private void Button_AcessarConta_Click(object sender, RoutedEventArgs e)
+        {
+            var ownedWindow = new LoginScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
+        }
+
+        private void Button_GerenciarConta_Click(object sender, RoutedEventArgs e)
+        {
+            var ownedWindow = new GerenciarContaScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
+        }
+
+        private void Button_GerenciarCliente_Click(object sender, RoutedEventArgs e)
+        {
+            var ownedWindow = new CriarClienteScreen();
+            ownedWindow.Owner = this;
+            ownedWindow.Show();
+            this.Visibility = Visibility.Hidden;
         }
     }
 }
